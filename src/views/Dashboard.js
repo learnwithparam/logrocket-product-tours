@@ -5,7 +5,7 @@ import Sidebar from "components/Sidebar.js";
 import LineChart from "components/LineChart.js";
 import BarChart from "components/BarChart.js";
 
-export default function Dashboard() {
+function Dashboard() {
   return (
     <>
       <Sidebar />
@@ -35,7 +35,7 @@ export default function Dashboard() {
                           </div>
                         </div>
                       </div>
-                        <p className="text-sm text-gray-500 mt-4">
+                      <p className="text-sm text-gray-500 mt-4">
                         <span className="text-green-500 mr-2">
                           <i className="fas fa-arrow-up"></i> 3.48%
                         </span>
@@ -428,7 +428,7 @@ export default function Dashboard() {
                   </div>
                 </div>
                 <div className="w-full md:w-8/12 px-4">
-                  <ul className="flex flex-wrap list-none md:justify-end  justify-center">
+                  <ul className="flex flex-wrap list-none md:justify-end justify-center tour-footer">
                     <li>
                       <a
                         href="https://www.creative-tim.com"
@@ -471,3 +471,5 @@ export default function Dashboard() {
     </>
   );
 }
+
+export default Dashboard;

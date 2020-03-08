@@ -61,8 +61,8 @@ export default function BarChart() {
             {
               display: false,
               scaleLabel: {
-              display: true,
-              labelString: "Month"
+                display: true,
+                labelString: "Month"
               },
               gridLines: {
                 borderDash: [2],
@@ -78,8 +78,8 @@ export default function BarChart() {
             {
               display: true,
               scaleLabel: {
-              display: false,
-              labelString: "Value"
+                display: false,
+                labelString: "Value"
               },
               gridLines: {
                 borderDash: [2],
@@ -100,7 +100,7 @@ export default function BarChart() {
   }, []);
   return (
     <>
-      <div className="w-full xl:w-4/12 px-4">
+      <div className="w-full xl:w-4/12 px-4 tour-orders">
         <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded">
           <div className="rounded-t mb-0 px-4 py-3 bg-transparent">
             <div className="flex flex-wrap items-center">
